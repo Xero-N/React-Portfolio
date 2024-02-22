@@ -5,16 +5,16 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Home = () => {
-  const [text, setText] = useState("");
+  const [text, setText] = useState([]);
   const animatedText =
-    "Bringing Designs to Life, One Pixel at a Time: Your Vision, Elevated ";
+    "Bringing Designs to Life, One Pixel at a Time: Your Vision, Elevated.";
   const delay = 50;
 
   useEffect(() => {
     let currentIndex = 0;
     const intervalId = setInterval(() => {
       if (currentIndex < animatedText.length) {
-        setText((prevText) => prevText + animatedText[currentIndex]);
+        setText((prevText) => [...prevText, animatedText[currentIndex]]);
         currentIndex++;
       } else {
         clearInterval(intervalId);
@@ -32,7 +32,7 @@ const Home = () => {
               <h1 className={`display-2 ${styles.title}`}>
                 <span className={styles.titleName}>Kha Nguyen</span>
               </h1>
-              <p className={`lead ${styles.description}`}>{text}</p>
+              <p className={`lead ${styles.description}`}>{text.join("")}</p>
               <Row>
                 <Col md={12}>
                   <div className="text-center">
