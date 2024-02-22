@@ -76,7 +76,7 @@ clear
 
 ## Deployment
 
-to be added
+https://xero-n.github.io/React-Portfolio/
 
 ## Repository
 
