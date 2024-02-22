@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Home = () => {
   const [text, setText] = useState("");
   const animatedText =
-    "Bringing Designs to Life, One Pixel at a Time: Your Vision, Elevated.";
+    "Bringing Designs to Life, One Pixel at a Time: Your Vision, Elevated ";
   const delay = 50;
 
   useEffect(() => {

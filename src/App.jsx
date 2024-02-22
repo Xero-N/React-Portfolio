@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import styles from "./App.module.css";
 
 import Home from "./components/Home/Home";
-import Projects from "./components/Projects/Projects";
-import ProjectGallery from "./components/Projects/ProjectGallery";
+import Projects from "./components/Projects/ProjectCard";
+import ProjectPage from "./components/Projects/ProjectPage";
 import Contact from "./components/Contact/Contact";
 import Header from "./components/Header/Header";
 // import the library

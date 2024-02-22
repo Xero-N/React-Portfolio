@@ -1,8 +1,6 @@
 import React from "react";
 import classNames from "classnames";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./Contact.module.css";
-import { getImageUrl } from "../../utils";
 
 const Contact = () => {
   return (
@@ -59,12 +57,19 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-            <button
-              type="submit"
-              className={classNames("btn", "btn-primary", styles.submitButton)}
-            >
-              Submit
-            </button>
+            <div className="text-center">
+              <button
+                type="submit"
+                className={classNames(
+                  "btn",
+                  "btn-primary",
+                  styles.submitButton
+                )}
+                style={{ backgroundColor: "#FFA500" }}
+              >
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </div>
