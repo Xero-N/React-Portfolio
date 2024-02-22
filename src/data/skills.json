@@ -1,0 +1,50 @@
+
+[
+	{
+	  "id": 1,
+	  "name": "HTML",
+	  "icon": "fab fa-html5"
+	},
+	{
+	  "id": 2,
+	  "name": "CSS",
+	  "icon": "fab fa-css3-alt"
+	},
+	{
+	  "id": 3,
+	  "name": "JavaScript",
+	  "icon": "fab fa-js"
+	},
+	{
+	  "id": 4,
+	  "name": "React",
+	  "icon": "fab fa-react"
+	},
+	{
+	  "id": 5,
+	  "name": "Bootstrap",
+	  "icon": "fab fa-bootstrap"
+	},
+	{
+	  "id": 6,
+	  "name": "ux design",
+	  "icon": "fa-solid fa-wand-magic-sparkles"
+	},
+	{
+	  "id": 7,
+	  "name": "JQuery",
+	  "icon": "fa-solid fa-code"
+	},
+	{
+	  "id": 8,
+	  "name": "Nodejs",
+	  "icon": "fa-brands fa-node-js"
+	},
+	{
+	  "id": 8,
+	  "name": "Github",
+	  "icon": "fa-brands fa-github"
+	}
+  ]
+  
+
