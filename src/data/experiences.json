@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Reality Capture Technician",
+    "company": "Excitech Ltd (now known as symmetri)",
+    "location": "London, United Kingdom",
+    "startDate": "2014-10-01",
+    "endDate": "2016-10-31",
+    "description": "Specialist in training and consulting on 3D technology in the as-built industry, including VR, AR, BIM and laserscanning"
+  },
+  {
+    "id": 2,
+    "title": "CAD Operator",
+    "company": "Site Engineering Surveys Ltd",
+    "location": "London, United Kingdom",
+    "startDate": "2016-10-31",
+    "endDate": "2024-04-30",
+    "description": "Specialist in Laserscanning to BIM as-built modelling and construction documentation."
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "projects/projectA.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "deployedLink": "https://example.com/projectA",
+    "githubLink": "https://github.com/username/projectA",
+    "demoGifSrc": "projects/projectA-demo.gif"
+  },
+  {
+    "title": "Project B",
+    "imageSrc": "projects/projectB.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "deployedLink": "https://example.com/projectB",
+    "githubLink": "https://github.com/username/projectB",
+    "demoGifSrc": "projects/projectB-demo.gif"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "projects/projectC.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node"],
+    "deployedLink": "https://example.com/projectC",
+    "githubLink": "https://github.com/username/projectC",
+    "demoGifSrc": "projects/projectC-demo.gif"
+  }
+]

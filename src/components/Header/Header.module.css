@@ -1,0 +1,21 @@
+/* Header.module.css */
+.nav {
+  background-color: coral;
+  padding-top: 61px;
+  z-index: 2;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navLink {
+  color: #000;
+}
+
+.navLink.active {
+  color: #fff;
+}
