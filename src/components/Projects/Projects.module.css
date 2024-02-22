@@ -1,1 +1,6 @@
-@import "../../vars.css";
+/* @import "../../vars.css"; */
+
+.btn-primary {
+  background-color: #ffa500 !important;
+  color: orange !important;
+}
