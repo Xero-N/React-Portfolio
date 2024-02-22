@@ -76,7 +76,7 @@ clear
 
 ## Deployment
 
-https://xero-n.github.io/React-Portfolio/
+https://main--kha-react-portfolio.netlify.app/
 
 ## Repository
 
