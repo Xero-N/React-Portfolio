@@ -1,27 +1,27 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/projectA.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Weather App",
+    "imageSrc": "src/assets/placeholderimage.jpeg",
+    "description": "The weather app searches for the current and 5 day forecast for desired location",
+    "skills": ["Javascript", "Html", "CSS", "Bootstrap"],
     "deployedLink": "https://example.com/projectA",
     "githubLink": "https://github.com/username/projectA",
     "demoGifSrc": "projects/projectA-demo.gif"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/projectB.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "title": "Team Generator",
+    "imageSrc": "src/assets/placeholderimage.jpeg",
+    "description": "This is a cmd line app to create your team roaster.",
+    "skills": ["NodeJs", "Html", "Javascript"],
     "deployedLink": "https://example.com/projectB",
     "githubLink": "https://github.com/username/projectB",
     "demoGifSrc": "projects/projectB-demo.gif"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/projectC.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Daily Planner",
+    "imageSrc": "src/assets/placeholderimage.jpeg",
+    "description": "The daily planner app is used to plan out your day and blocking out slots.",
+    "skills": ["Javascript", "Html", "CSS", "Bootstrap"],
     "deployedLink": "https://example.com/projectC",
     "githubLink": "https://github.com/username/projectC",
     "demoGifSrc": "projects/projectC-demo.gif"

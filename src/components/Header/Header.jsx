@@ -24,11 +24,9 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             {" "}
-            {/* Align other links to the right */}
             <NavItem to="/" exact>
               Home
             </NavItem>
-            {/* <NavItem to="/about">About</NavItem> */}
             <NavItem to="/projects">Projects</NavItem>
             <NavItem to="/contact">Contact</NavItem>
             <li className="nav-item">
