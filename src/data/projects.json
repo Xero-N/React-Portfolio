@@ -1,7 +1,7 @@
 [
   {
     "title": "Weather App",
-    "imageSrc": "src/assets/placeholderimage.jpeg",
+    "imageSrc": "./assets/placeholderimage.jpeg",
     "description": "The weather app searches for the current and 5 day forecast for desired location",
     "skills": ["Javascript", "Html", "CSS", "Bootstrap"],
     "deployedLink": "https://example.com/projectA",
@@ -10,7 +10,7 @@
   },
   {
     "title": "Team Generator",
-    "imageSrc": "src/assets/placeholderimage.jpeg",
+    "imageSrc": "./assets/placeholderimage.jpeg",
     "description": "This is a cmd line app to create your team roaster.",
     "skills": ["NodeJs", "Html", "Javascript"],
     "deployedLink": "https://example.com/projectB",
@@ -19,7 +19,7 @@
   },
   {
     "title": "Daily Planner",
-    "imageSrc": "src/assets/placeholderimage.jpeg",
+    "imageSrc": "./assets/placeholderimage.jpeg",
     "description": "The daily planner app is used to plan out your day and blocking out slots.",
     "skills": ["Javascript", "Html", "CSS", "Bootstrap"],
     "deployedLink": "https://example.com/projectC",

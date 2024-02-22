@@ -1,18 +1,17 @@
 import React from "react";
 
 import styles from "./Projects.module.css";
-import { getImageUrl } from "../../utils";
 import PropTypes from "prop-types";
 
 const ProjectGallery = ({ project }) => {
   const { title, imageSrc, description, skills, deployedLink, githubLink } =
     project;
-
+  console.log(project);
   return (
     <div className="container mt-5">
       <div className="card h-100">
         <img
-          src={getImageUrl(imageSrc)}
+          src={imageSrc}
           alt={`Image of ${title}`}
           className="card-img-top"
         />
