@@ -65,7 +65,7 @@ const Contact = () => {
                   "btn-primary",
                   styles.submitButton
                 )}
-                style={{ backgroundColor: "#FFA500" }}
+                style={{ backgroundColor: "#ff8000" }}
               >
                 Submit
               </button>

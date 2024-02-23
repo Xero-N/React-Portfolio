@@ -1,29 +1,26 @@
 [
   {
     "title": "Weather App",
-    "imageSrc": "./assets/placeholderimage.jpeg",
+    "imageSrc": "./assets/weatherapp.png",
     "description": "The weather app searches for the current and 5 day forecast for desired location",
     "skills": ["Javascript", "Html", "CSS", "Bootstrap"],
-    "deployedLink": "https://example.com/projectA",
-    "githubLink": "https://github.com/username/projectA",
-    "demoGifSrc": "projects/projectA-demo.gif"
+    "deployedLink": "https://xero-n.github.io/Weather-Forecast/",
+    "githubLink": "https://github.com/Xero-N/Weather-Forecast"
   },
   {
     "title": "Team Generator",
-    "imageSrc": "./assets/placeholderimage.jpeg",
+    "imageSrc": "./assets/teamgenerator.png",
     "description": "This is a cmd line app to create your team roaster.",
     "skills": ["NodeJs", "Html", "Javascript"],
-    "deployedLink": "https://example.com/projectB",
-    "githubLink": "https://github.com/username/projectB",
-    "demoGifSrc": "projects/projectB-demo.gif"
+    "deployedLink": "https://github.com/Xero-N/Team-Profile-Generator/blob/main/output/team.html",
+    "githubLink": "https://github.com/Xero-N/Team-Profile-Generator"
   },
   {
     "title": "Daily Planner",
-    "imageSrc": "./assets/placeholderimage.jpeg",
+    "imageSrc": "./assets/dailyplanner.png",
     "description": "The daily planner app is used to plan out your day and blocking out slots.",
     "skills": ["Javascript", "Html", "CSS", "Bootstrap"],
-    "deployedLink": "https://example.com/projectC",
-    "githubLink": "https://github.com/username/projectC",
-    "demoGifSrc": "projects/projectC-demo.gif"
+    "deployedLink": "https://xero-n.github.io/Daily-Planner-Challenge/",
+    "githubLink": "https://github.com/Xero-N/Daily-Planner-Challenge"
   }
 ]

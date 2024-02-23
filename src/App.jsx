@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import styles from "./App.module.css";
 
 import Home from "./components/Home/Home";
-import Projects from "./components/Projects/ProjectCard";
-import ProjectPage from "./components/Projects/ProjectPage";
+import Projects from "./components/Projects/Projects";
+import ProjectPage from "./components/Projects/ProjectCard";
 import Contact from "./components/Contact/Contact";
 import Header from "./components/Header/Header";
 
