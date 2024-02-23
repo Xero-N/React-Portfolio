@@ -7,8 +7,8 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Home = () => {
   const [text, setText] = useState([]);
-  const animatedText =
-    "Bringing Designs to Life, One Pixel at a Time: Your Vision, Elevated.";
+  const [isHovered, setIsHovered] = useState(false);
+  const animatedText = "Bringing Designs to Life, One Pixel at a Time.";
   const delay = 50;
 
   useEffect(() => {
@@ -31,7 +31,15 @@ const Home = () => {
           <div className="col-md-8">
             <div>
               <h1 className={`display-2 ${styles.title}`}>
-                <span className={styles.titleName}>Kha Nguyen</span>
+                <span
+                  className={`${styles.titleName} ${
+                    isHovered ? styles.bounce : ""
+                  }`}
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}
+                >
+                  Kha Nguyen
+                </span>
               </h1>
               <p className={`lead ${styles.description}`}>{text.join("")}</p>
               <Row>
@@ -77,7 +85,7 @@ const Home = () => {
                     </button>
                     <button
                       onClick={() => {
-                        window.open("test@example.com");
+                        window.open("mailto:test@example.com");
                       }}
                       className={`socialMediaBtn ${styles.socialMediaBtn}`}
                       style={{

@@ -53,6 +53,54 @@
   margin: 0 8px;
 }
 
+.body {
+  padding: 50px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.titleName {
+  cursor: pointer;
+}
+
+.description {
+  margin-bottom: 50px;
+}
+
+.socialMediaBtn {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+
+.socialMediaBtn:hover {
+  background-color: #ff9100;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.bounce {
+  animation: bounceAnimation 0.1s infinite alternate;
+}
+
+@keyframes bounceAnimation {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
