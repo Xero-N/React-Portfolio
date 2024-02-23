@@ -49,6 +49,10 @@
   animation-timing-function: ease-in-out;
 }
 
+.socialMediaBtn {
+  margin: 0 8px;
+}
+
 @keyframes floating {
   0% {
     transform: translate(0, 0px);

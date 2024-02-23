@@ -3,6 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import styles from "./Home.module.css";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Home = () => {
   const [text, setText] = useState([]);
@@ -40,9 +41,19 @@ const Home = () => {
                       onClick={() => {
                         window.open("https://github.com/your-github-profile");
                       }}
-                      className="socialMediaBtn"
+                      className={`socialMediaBtn ${styles.socialMediaBtn}`}
+                      style={{
+                        fontSize: "18px",
+                        padding: "12px 24px",
+                        borderRadius: "10px",
+                        marginRight: "10px",
+                      }}
                     >
-                      <AiFillGithub className="icon" /> GitHub
+                      <AiFillGithub
+                        className="icon"
+                        style={{ marginRight: "8px" }}
+                      />{" "}
+                      GitHub
                     </button>
                     <button
                       onClick={() => {
@@ -50,9 +61,36 @@ const Home = () => {
                           "https://www.linkedin.com/in/your-linkedin-profile/"
                         );
                       }}
-                      className="socialMediaBtn"
+                      className={`socialMediaBtn ${styles.socialMediaBtn}`}
+                      style={{
+                        fontSize: "18px",
+                        padding: "12px 24px",
+                        borderRadius: "10px",
+                        marginRight: "10px",
+                      }}
                     >
-                      <FaLinkedinIn className="icon" /> LinkedIn
+                      <FaLinkedinIn
+                        className="icon"
+                        style={{ marginRight: "8px" }}
+                      />{" "}
+                      LinkedIn
+                    </button>
+                    <button
+                      onClick={() => {
+                        window.open("test@example.com");
+                      }}
+                      className={`socialMediaBtn ${styles.socialMediaBtn}`}
+                      style={{
+                        fontSize: "18px",
+                        padding: "12px 24px",
+                        borderRadius: "10px",
+                      }}
+                    >
+                      <HiOutlineMail
+                        className="icon"
+                        style={{ marginRight: "8px" }}
+                      />{" "}
+                      Email
                     </button>
                   </div>
                 </Col>

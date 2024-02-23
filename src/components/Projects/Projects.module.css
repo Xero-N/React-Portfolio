@@ -1,0 +1,14 @@
+body {
+  background-image: url("../../assets/orangebackground.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: var(--color-text);
+  height: 100vh;
+  width: 100%;
+}
+
+.projectsTitle {
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px !important;
+}
