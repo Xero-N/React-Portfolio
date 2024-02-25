@@ -47,7 +47,7 @@ const Home = () => {
                   <div className="text-center">
                     <button
                       onClick={() => {
-                        window.open("https://github.com/your-github-profile");
+                        window.open("https://github.com/Xero-N");
                       }}
                       className={`socialMediaBtn ${styles.socialMediaBtn}`}
                       style={{
@@ -66,7 +66,7 @@ const Home = () => {
                     <button
                       onClick={() => {
                         window.open(
-                          "https://www.linkedin.com/in/your-linkedin-profile/"
+                          "https://uk.linkedin.com/in/kha-nguyen-01000482"
                         );
                       }}
                       className={`socialMediaBtn ${styles.socialMediaBtn}`}
